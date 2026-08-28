@@ -12,4 +12,3 @@ input("=== Precione <Enter> para mostrar o resultado ===")
 os.system("cls")
 
 print("Sua idade é:",idade,"Anos" )
-

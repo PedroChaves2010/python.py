@@ -1,13 +1,14 @@
 import os
 os.system("cls")
 
-print("=== Bem vindo o super conversor de temperatura ===")
+print("=== Bem vindo ao super conversor de temperatura ===")
 
-c = float(input("Digite a temperatura em celcios: "))
+c = float(input("Digite a temperatura em °C: "))
 
 f = (c * 1.8) + 32
-
+resultado = round(f, 2)
 input("=== para motrar a temperatura aperte <Enter> ===")
 os.system
 
-print("Tmperatura em Fahrenhit é de:",f)
+print(" A temperatura em Fahrenhit é :",resultado)
+input("Precione <Enter> para encerrar...")
